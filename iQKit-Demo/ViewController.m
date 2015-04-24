@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SVProgressHUD.h"
 
 @interface ViewController ()
 
@@ -24,6 +25,13 @@
     [button setTitle:@"iQ Search" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [SVProgressHUD showSuccessWithStatus:@"View Did Appear!"];
 }
 
 - (void)buttonTapped:(id)sender
