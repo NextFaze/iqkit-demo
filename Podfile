@@ -1,8 +1,13 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '6.0'
+use_frameworks!
+platform :ios, '8.0'
 
 target 'iQKit-Demo' do
+
 pod 'SVProgressHUD', '1.0'
+# pod 'iQKit', :path => '../iqkit-ios'
+# pod 'iQKit', :git => 'git@github.com:NextFaze/iqkit-ios.git', :branch => 'framework'
+pod 'iQKit', :git => 'git@github.com:NextFaze/iqkit-ios-public'
+
 end
 
 target 'iQKit-DemoTests' do
