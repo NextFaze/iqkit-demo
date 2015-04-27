@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70C2919D689D325AFE93FEED /* libPods-iQKit-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74404E3BA31B6C960453E4D7 /* libPods-iQKit-Demo.a */; };
 		7CEA54871AE9DF8000AC0F6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA54861AE9DF8000AC0F6D /* main.m */; };
 		7CEA548A1AE9DF8000AC0F6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA54891AE9DF8000AC0F6D /* AppDelegate.m */; };
 		7CEA548D1AE9DF8000AC0F6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA548C1AE9DF8000AC0F6D /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		7CEA54A11AE9DF8000AC0F6D /* iQKit_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA54A01AE9DF8000AC0F6D /* iQKit_DemoTests.m */; };
 		7CEA54AB1AE9E59000AC0F6D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA54AA1AE9E59000AC0F6D /* Podfile */; };
 		7CEA54AD1AE9E59400AC0F6D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA54AC1AE9E59400AC0F6D /* README.md */; };
-		D8C867B50E7CE1D5F4CFD8A0 /* libPods-iQKit-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EB9AD2D7B0F334EDBA98C0 /* libPods-iQKit-Demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74404E3BA31B6C960453E4D7 /* libPods-iQKit-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iQKit-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEA54811AE9DF8000AC0F6D /* iQKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iQKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEA54851AE9DF8000AC0F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CEA54861AE9DF8000AC0F6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		7CEA54AA1AE9E59000AC0F6D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		7CEA54AC1AE9E59400AC0F6D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		935216DE82CD2DADB88DA855 /* Pods-iQKit-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQKit-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iQKit-Demo/Pods-iQKit-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		B0EB9AD2D7B0F334EDBA98C0 /* libPods-iQKit-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iQKit-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA79D929AD08082F09CD1846 /* Pods-iQKit-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQKit-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iQKit-Demo/Pods-iQKit-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8C867B50E7CE1D5F4CFD8A0 /* libPods-iQKit-Demo.a in Frameworks */,
+				70C2919D689D325AFE93FEED /* libPods-iQKit-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +135,7 @@
 		92C8FAE574FEE4D97B4BD583 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B0EB9AD2D7B0F334EDBA98C0 /* libPods-iQKit-Demo.a */,
+				74404E3BA31B6C960453E4D7 /* libPods-iQKit-Demo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

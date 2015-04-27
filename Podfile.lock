@@ -1,10 +1,22 @@
 PODS:
+  - iQKit (0.1.0):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
   - SVProgressHUD (1.0)
 
 DEPENDENCIES:
+  - iQKit (from `../iqkit-ios-src`)
   - SVProgressHUD (= 1.0)
 
+EXTERNAL SOURCES:
+  iQKit:
+    :path: ../iqkit-ios-src
+
 SPEC CHECKSUMS:
+  iQKit: 76420b01c0bd0fd26a6e1138b59279cec07f62c4
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   SVProgressHUD: 46088807596a795cbcb4affd92cf3f13b6ab3dda
 
 COCOAPODS: 0.36.4
