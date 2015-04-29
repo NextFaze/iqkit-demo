@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "SVProgressHUD.h"
-#import "iQSearchViewController.h"
+#import "iQKit.h"
 
 @interface ViewController ()
 
@@ -37,8 +37,8 @@
 
 - (void)buttonTapped:(id)sender
 {
-    iQSearchViewController *searchViewController = [[iQSearchViewController alloc] init];
-    [self presentViewController:searchViewController animated:YES completion:nil];
+    iQScannerViewController *scannerViewController = [[iQScannerViewController alloc] init];
+    [self presentViewController:scannerViewController animated:YES completion:nil];
 }
 
 @end

@@ -14,18 +14,27 @@
     "ios": "7.0"
   },
   "source": {
-    "git": "git@github.com/NextFaze/iqkit-ios",
-    "branch": "master"
+    "git": "https://github.com/NextFaze/iqkit-ios.git",
+    "tag": "0.1.0"
   },
-  "source_files": [
-    "iQKit",
-    "iQKit/**/*.{h,m}"
+  "source_files": "iQKit/include/**/*.h",
+  "ios": {
+    "vendored_libraries": "iQKit/libiQKit.a"
+  },
+  "frameworks": [
+    "AVFoundation",
+    "CoreLocation"
   ],
-  "public_header_files": "iQKit/**/*.h",
   "requires_arc": true,
   "dependencies": {
     "SDWebImage": [
       "~> 3.7"
+    ],
+    "NFAllocInit": [
+      "~> 1.0"
+    ],
+    "SVProgressHUD": [
+      "1.0"
     ]
   }
 }

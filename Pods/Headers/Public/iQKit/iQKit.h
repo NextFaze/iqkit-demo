@@ -1,1 +1,1 @@
-../../../../../iqkit-ios-src/iQKit/iQKit.h
+../../../../../iqkit-ios/iQKit/include/iQKit/iQKit.h

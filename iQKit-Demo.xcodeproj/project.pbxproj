@@ -16,7 +16,6 @@
 		7CEA54951AE9DF8000AC0F6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA54931AE9DF8000AC0F6D /* LaunchScreen.xib */; };
 		7CEA54A11AE9DF8000AC0F6D /* iQKit_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA54A01AE9DF8000AC0F6D /* iQKit_DemoTests.m */; };
 		7CEA54AB1AE9E59000AC0F6D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA54AA1AE9E59000AC0F6D /* Podfile */; };
-		7CEA54AD1AE9E59400AC0F6D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA54AC1AE9E59400AC0F6D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,7 @@
 		7CEA549A1AE9DF8000AC0F6D /* iQKit-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iQKit-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEA549F1AE9DF8000AC0F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CEA54A01AE9DF8000AC0F6D /* iQKit_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iQKit_DemoTests.m; sourceTree = "<group>"; };
-		7CEA54AA1AE9E59000AC0F6D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		7CEA54AA1AE9E59000AC0F6D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7CEA54AC1AE9E59400AC0F6D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		935216DE82CD2DADB88DA855 /* Pods-iQKit-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQKit-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iQKit-Demo/Pods-iQKit-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		BA79D929AD08082F09CD1846 /* Pods-iQKit-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iQKit-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iQKit-Demo/Pods-iQKit-Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -287,7 +286,6 @@
 			files = (
 				7CEA548D1AE9DF8000AC0F6D /* ViewController.m in Sources */,
 				7CEA548A1AE9DF8000AC0F6D /* AppDelegate.m in Sources */,
-				7CEA54AD1AE9E59400AC0F6D /* README.md in Sources */,
 				7CEA54871AE9DF8000AC0F6D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,1 @@
+../../../../../iqkit-ios/iQKit/include/iQKit/iQAPISearchRequest.h

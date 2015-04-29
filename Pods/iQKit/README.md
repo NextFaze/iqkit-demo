@@ -1,1 +1,4 @@
-# iqkit-ios-public
+iqkit-ios
+=========
+
+iQNECT Kit for iOS

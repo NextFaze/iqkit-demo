@@ -1,6 +1,0 @@
-framework module iQKit {
-  umbrella header "iQKit.h"
-
-  export *
-  module * { export * }
-}

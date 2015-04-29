@@ -6,6 +6,12 @@
 // project.
 
 
+// NFAllocInit
+#define COCOAPODS_POD_AVAILABLE_NFAllocInit
+#define COCOAPODS_VERSION_MAJOR_NFAllocInit 1
+#define COCOAPODS_VERSION_MINOR_NFAllocInit 0
+#define COCOAPODS_VERSION_PATCH_NFAllocInit 8
+
 // SDWebImage
 #define COCOAPODS_POD_AVAILABLE_SDWebImage
 #define COCOAPODS_VERSION_MAJOR_SDWebImage 3
