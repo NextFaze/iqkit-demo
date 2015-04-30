@@ -30,6 +30,12 @@
 #define COCOAPODS_VERSION_MINOR_SVProgressHUD 0
 #define COCOAPODS_VERSION_PATCH_SVProgressHUD 0
 
+// SVWebViewController
+#define COCOAPODS_POD_AVAILABLE_SVWebViewController
+#define COCOAPODS_VERSION_MAJOR_SVWebViewController 1
+#define COCOAPODS_VERSION_MINOR_SVWebViewController 0
+#define COCOAPODS_VERSION_PATCH_SVWebViewController 0
+
 // iQKit
 #define COCOAPODS_POD_AVAILABLE_iQKit
 #define COCOAPODS_VERSION_MAJOR_iQKit 0

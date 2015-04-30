@@ -8,11 +8,13 @@ PODS:
     - SDWebImage/Core (= 3.7.2)
   - SDWebImage/Core (3.7.2)
   - SVProgressHUD (1.0)
+  - SVWebViewController (1.0)
 
 DEPENDENCIES:
   - iQKit (from `../iqkit-ios`)
   - NFAllocInit (~> 1.0)
-  - SVProgressHUD (= 1.0)
+  - SVProgressHUD (~> 1.0)
+  - SVWebViewController (~> 1.0)
 
 EXTERNAL SOURCES:
   iQKit:
@@ -23,5 +25,6 @@ SPEC CHECKSUMS:
   NFAllocInit: bed1491d942fca8c886e48fd2f29fadef3431d36
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   SVProgressHUD: 46088807596a795cbcb4affd92cf3f13b6ab3dda
+  SVWebViewController: c36dda7326e81fcae0abf5d02bf7bbf7e41be901
 
 COCOAPODS: 0.36.4

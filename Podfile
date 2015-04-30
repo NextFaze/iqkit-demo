@@ -2,7 +2,8 @@ platform :ios, '7.0'
 
 target 'iQKit-Demo' do
 
-pod 'SVProgressHUD', '1.0'
+pod 'SVProgressHUD', '~> 1.0'
+pod 'SVWebViewController', '~> 1.0'
 pod 'NFAllocInit', '~> 1.0'
 
 pod 'iQKit', :path => '../iqkit-ios'

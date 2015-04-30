@@ -1,6 +1,6 @@
 #include "Pods-iQKit-Demo-SVProgressHUD.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SVProgressHUD" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/NFAllocInit" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/iQKit"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SVProgressHUD" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/NFAllocInit" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/SVWebViewController" "${PODS_ROOT}/Headers/Public/iQKit"
 OTHER_LDFLAGS = ${PODS_IQKIT_DEMO_SVPROGRESSHUD_OTHER_LDFLAGS} -ObjC
 PODS_ROOT = ${SRCROOT}
 SKIP_INSTALL = YES

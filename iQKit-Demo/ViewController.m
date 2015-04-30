@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SVProgressHUD.h"
+#import "SVWebViewController.h"
 #import "iQKit.h"
 
 @interface ViewController () <iQScannerViewControllerDelegate>
@@ -60,6 +61,12 @@
 - (void)scannerViewController:(iQScannerViewController *)scannerViewController didLoadSearchResponse:(iQAPISearchResponse *)searchResponse
 {
     NSLog(@"Search response: %@", searchResponse);
+    [scannerViewController dismissViewControllerAnimated:YES completion:^{
+        if (searchResponse.payload) {
+            SVModalWebViewController *webViewController = [[SVModalWebViewController alloc] initWithURL:searchResponse.payload];
+            [self presentViewController:webViewController animated:YES completion:nil];
+        } 
+    }];
 }
 
 - (void)scannerViewControllerDidCancel:(iQScannerViewController *)scannerViewController
