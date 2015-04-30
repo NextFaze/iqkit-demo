@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "iQKit.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+#warning TODO insert your app ID and token here
+    [iQKit setAppID:nil
+        andAppToken:nil];
+    
     return YES;
 }
 

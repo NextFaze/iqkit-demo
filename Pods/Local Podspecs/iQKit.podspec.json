@@ -17,7 +17,8 @@
     "git": "https://github.com/NextFaze/iqkit-ios.git",
     "tag": "0.1.0"
   },
-  "source_files": "iQKit/include/**/*.h",
+  "public_header_files": "iQKit/include/iQKit/*.h",
+  "resources": "iQKit/iQKitResources.bundle",
   "ios": {
     "vendored_libraries": "iQKit/libiQKit.a"
   },

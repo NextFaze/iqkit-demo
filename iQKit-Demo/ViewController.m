@@ -21,12 +21,12 @@
     [super viewDidLoad];
     
     CGFloat padding = 20.0;
-    
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+      
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(padding, 20.0 + padding, self.view.frame.size.width - 2*padding, 44.0);
     button.backgroundColor = [UIColor lightGrayColor];
     button.layer.cornerRadius = 4.0;
-    [button setTitle:@"iQ Search" forState:UIControlStateNormal];
+    [button setImage:[UIImage imageNamed:@"iQKitResources.bundle/scanner_camera"] forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
 }
