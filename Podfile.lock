@@ -3,7 +3,7 @@ PODS:
     - NFAllocInit (~> 1.0)
     - SDWebImage (~> 3.7)
     - SVProgressHUD (= 1.0)
-  - NFAllocInit (1.0.8)
+  - NFAllocInit (1.0.9)
   - SDWebImage (3.7.2):
     - SDWebImage/Core (= 3.7.2)
   - SDWebImage/Core (3.7.2)
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   iQKit: f5ec08c35b8d0e0ec26602a80c581abb7a07845d
-  NFAllocInit: bed1491d942fca8c886e48fd2f29fadef3431d36
+  NFAllocInit: ef7a8a8022d648bad86867b4aead9122a5d6054f
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   SVProgressHUD: 46088807596a795cbcb4affd92cf3f13b6ab3dda
   SVWebViewController: c36dda7326e81fcae0abf5d02bf7bbf7e41be901

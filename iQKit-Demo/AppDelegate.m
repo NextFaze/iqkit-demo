@@ -20,8 +20,8 @@
     // Override point for customization after application launch.
     
 #warning TODO insert your app ID and token here
-    [iQKit setAppID:nil
-        andAppToken:nil];
+    [iQKit setAppID:@"blah"
+        andAppToken:@"blah"];
     
     return YES;
 }
