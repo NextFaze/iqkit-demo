@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
     :path: ../iqkit-ios
 
 SPEC CHECKSUMS:
-  iQKit: f5ec08c35b8d0e0ec26602a80c581abb7a07845d
+  iQKit: 1ce6ed5584ed685fe32c050337867ced9b2e84e1
   NFAllocInit: ef7a8a8022d648bad86867b4aead9122a5d6054f
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   SVProgressHUD: 46088807596a795cbcb4affd92cf3f13b6ab3dda

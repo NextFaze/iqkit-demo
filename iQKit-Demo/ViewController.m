@@ -22,7 +22,7 @@
     [super viewDidLoad];
     
     CGFloat padding = 20.0;
-      
+    
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(padding, 20.0 + padding, self.view.frame.size.width - 2*padding, 44.0);
     button.backgroundColor = [UIColor lightGrayColor];
@@ -40,7 +40,6 @@
 - (void)buttonTapped:(id)sender
 {
     iQScannerViewController *scannerViewController = [[iQScannerViewController alloc] init];
-    scannerViewController.continuousScanEnabled = NO;
     scannerViewController.delegate = self;
     
     [self presentViewController:scannerViewController animated:YES completion:nil];
@@ -51,11 +50,6 @@
 - (void)scannerViewController:(iQScannerViewController *)scannerViewController didScanBarcode:(AVMetadataMachineReadableCodeObject *)barcode
 {
     NSLog(@"Barcode: %@", barcode);
-}
-
-- (void)scannerViewController:(iQScannerViewController *)scannerViewController didCaptureImageData:(NSData *)imageData
-{
-    NSLog(@"Image data: %@", imageData);
 }
 
 - (void)scannerViewController:(iQScannerViewController *)scannerViewController didLoadSearchResponse:(iQAPISearchResponse *)searchResponse

@@ -24,7 +24,8 @@
   },
   "frameworks": [
     "AVFoundation",
-    "CoreLocation"
+    "CoreLocation",
+    "CoreText"
   ],
   "requires_arc": true,
   "dependencies": {
