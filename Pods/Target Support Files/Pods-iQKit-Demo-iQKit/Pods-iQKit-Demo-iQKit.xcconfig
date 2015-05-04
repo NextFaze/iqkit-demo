@@ -1,0 +1,2 @@
+PODS_IQKIT_DEMO_IQKIT_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/../../iqkit-ios/iQKit"
+PODS_IQKIT_DEMO_IQKIT_OTHER_LDFLAGS = -l"iQKit" -framework "AVFoundation" -framework "CoreLocation" -framework "CoreText"

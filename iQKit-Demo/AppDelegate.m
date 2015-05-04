@@ -21,7 +21,7 @@
     
 #warning TODO insert your app ID and token here
     [iQKit setAppID:@"blah"
-        andAppToken:@"blah"];
+       andAppSecret:@"blah"];
     
     return YES;
 }
