@@ -19,9 +19,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-#warning TODO insert your app ID and token here
-    [iQKit setAppID:@"blah"
-       andAppSecret:@"blah"];
+#warning TODO insert your app ID and secret here
+    [iQKit setAppID:@"APP-ID"
+       andAppSecret:@"APP-SECRET"];
     
     return YES;
 }
